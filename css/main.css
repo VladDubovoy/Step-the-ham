@@ -279,7 +279,8 @@ html {
   width: 75px;
   background-color: #18cfab;
   display: block;
-  left: 542.5px;
+  left: 50%;
+  transform: translateX(-50%);
   bottom: -24px;
 }
 
@@ -290,7 +291,8 @@ html {
   width: 75px;
   background-color: #18cfab;
   display: block;
-  left: 554.5px;
+  left: calc(50% + 10px);
+  transform: translateX(-50%);
   bottom: -27px;
 }
 
